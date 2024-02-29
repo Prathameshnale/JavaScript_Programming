@@ -12,7 +12,7 @@
 
 //object -> 
 
-let person = {   //here person is a object and name and age are the properties of the object
+let person = {   //here person is a object and name, age are the properties of the object
     "name":"prathamesh",
     "age":"24"
 }
