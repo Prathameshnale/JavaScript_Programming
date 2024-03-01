@@ -5,8 +5,8 @@
 
 function Circle(radius){
     this.radius=radius;
-    let location=100;
-    let draw=function(){
+    let location=100; //local variable or private data members
+    let draw=function(){  //local member fucntion or private member function
         console.log("Inside draw function...");
     };
     this.abc=function(){

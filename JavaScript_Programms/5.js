@@ -89,8 +89,8 @@ for(let key in u1){
 
 const count = Object.keys(u1);
 
-console.log(count);  //this will return the array of list of properties of the object u1
-
+console.log("count = "+count);  //this will return the array of list of properties of the object u1
+// count = name,email
 
 if("name" in u1)  //checking the existance of the property in object;
 {

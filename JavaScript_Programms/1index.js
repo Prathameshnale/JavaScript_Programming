@@ -12,7 +12,7 @@ console.log("name = "+name);
 
 //Rules of variable name
 
-//1. It should not be reserve key word
+//1. It should not be reserved key word
 //2. It should be meaningfull as well as in camelCase
 //3. It is case-sensetive
 //4. variable should not containt any special character except _ and not start with digit.
@@ -24,7 +24,7 @@ console.log(firstname);
 
 //constant variable
 
-//const num;  it is mandatory to initialize at the time of declaration
+//const num; //error, it is mandatory to initialize at the time of declaration
 
 const num1=5;
 //num1=7;       //it will give error we cannot modify the constant variable
