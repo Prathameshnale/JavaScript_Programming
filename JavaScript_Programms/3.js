@@ -17,7 +17,6 @@ circle.draw();
 
 //factory function - 
 
-
 function createObjects(radius){
      return {
         radius,     //i.e radius:radius,

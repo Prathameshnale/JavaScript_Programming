@@ -16,9 +16,16 @@ console.log("name = "+name);
 //2. It should be meaningfull as well as in camelCase
 //3. It is case-sensetive
 //4. variable should not containt any special character except _ and not start with digit.
+//5. No space is allowed between any charachter of variable name.
 
 let firstname="abc";
 console.log(firstname);
+
+//types of varibles in js
+//1. var -> not recommanded because it is function scope
+//2. let -> block scope (recommanded).
+//3. const -> block scope
+
 
 
 
@@ -42,6 +49,7 @@ firstName=8876;  //Number    typeof(firstName) = number
 console.log(firstName);
 console.log(typeof(firstName));
 firstName=null;   //null typeof(firstName) = object
+                  //null is primitive type of data but if we print typeof(null) it will print object.         
 console.log(firstName);
 console.log(typeof(firstName));
 firstName=undefined;  //undefined   typeof(firstName) = undefined

@@ -1,14 +1,18 @@
 //java script is a dynamic typed language
 //it means if assigned string type of value to the variable let say name="prathamesh";
-//typeof name is string and later on if we assign the number of the name, i.e name=8876 
+//typeof name is string and later on if we assign the number to the name, i.e name=8876 
 //now the typeof name is becomes the number and this allowed in java script so it is called as dynamic typed
 //language. it is not allowed in c,c++,java.
+//basically conversion of datatype of same variable from one data type to another data type is called as
+//Dynamic type.
 
 
 
 
 
 //Reference type  -> object,Arrays,Functions
+
+//null is primitive type of data but if we print typeof(null) it will print object.
 
 //object -> 
 
@@ -53,6 +57,8 @@ array=[8876,"prathamesh",null,undefined,true];   //array can have different numb
 console.log(array);
 
 console.log(array.length); //dispaly length of array
+
+
 
 
 

@@ -1,15 +1,11 @@
-function circle(radius,color){
-    this.radius=radius;
-    this.color=color;
-    
-    Object.defineProperty(this,"color",{
-        get:function(){
-            return color;
-        }
-    })
+function newObj(value){
+    this.value=value,
+    this.draw=function(){
+        console.log("inside draw function of constructor function");
+    }
 }
 
 
-const c1 = new circle(5,"white");
-const a=c1.color;
-console.log(a);
+let obj1=new newObj(10);
+console.log(obj1.value);
+obj1.draw();
