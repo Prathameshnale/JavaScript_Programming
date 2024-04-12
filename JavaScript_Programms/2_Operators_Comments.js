@@ -20,5 +20,19 @@ Operator are the symbols that are used to perform the operation on the variables
    5.Assignment Operators - assign = , add and assign +=, sub and assign -=, multiply and assign *=, 
                             division and assign /=,modulus and assign %=, expenential and assign **=
    6.Increment/Decrement -  ++ increment , -- decrement 
+   7.Ternary operator -    condition ? exp 1 (if true) : exp 2 (if false)
+                            e.g cosole.log(age<18 ? "not drive" : "drive");
 
-*/
+
+
+
+comments in js -> Comments are used keep the notes in js which is ignored while runnnig/compilation of the
+                  programm.
+
+            There are two types of comments in js
+            1.single line comment-  //
+
+            2.multi-line commnet-  /*
+
+                                    */
+
