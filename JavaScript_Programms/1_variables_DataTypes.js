@@ -46,7 +46,7 @@ console.log(firstname);
             //if not initialized at the time of declaration then it is bydefault undefined data type
 //2. let -> blocked scope (recommanded).
             //let cannot be re-declared.
-            //if not initialized at the time of declaration then it is bydefault undefied data type.
+            //if not initialized at the time of declaration then it is bydefault undefined data type.
 //3. const -> Scope is througout the programm
             // it cannot be re-declared once declared and cannot be modified once initialized.
 
