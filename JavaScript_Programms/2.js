@@ -1,12 +1,3 @@
-//java script is a dynamic typed language
-//it means if assigned string type of value to the variable let say name="prathamesh";
-//typeof name is string and later on if we assign the number to the name, i.e name=8876 
-//now the typeof name is becomes the number and this allowed in java script so it is called as dynamic typed
-//language. it is not allowed in c,c++,java.
-//basically conversion of datatype of same variable from one data type to another data type is called as
-//Dynamic type.
-
-
 
 
 
@@ -63,42 +54,5 @@ console.log(array.length); //dispaly length of array
 
 
 
-//functions 
-
-//defination of funtion
-function greet(){        //function is keyword  and greet is a name of the function.
-    console.log("learning functions in javascript...");
-}
-
-greet();  //calling function 
-
-function test(name)  
-{
-    console.log("Hello "+name);
-    console.log(typeof(name));   //string ,scop of name inside functin only
-}
-
-test("prathamesh");
-
-
-function test1(firstName,lastName){
-    console.log(firstName+" "+lastName);  //prathamesh undefined  //bydefault data type if undefined
-}
-test1("prathamesh");
-
-
-function test2(firstName,lastName){
-    console.log(firstName+" "+lastName);   // prathamesh nale
-}
-test2("prathamesh","nale");
-
-
-
-function square(num)
-{
-    return num * num;
-}
-
-console.log(square(5));
 
 
