@@ -6,6 +6,7 @@ There are 5 types of loops in js
 3. for of loop
 4. while loop
 5. do while loop
+6. forEach loop
 
 
 1. for loop ->
@@ -103,4 +104,29 @@ while(i<10){
     3
     2
     1
+
+
+
+6 forEach loop 
+
+
+let arr = [1,2,3,4,5,6,7,8,9];
+
+arr.forEach((element)=>{
+    console.log(element);
+})
+
+
+//output-
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+
 */

@@ -132,7 +132,7 @@ console.log("newarr.sort() = "+newarr.sort());
 console.log("newarr = "+newarr);
 
 
-const compare1=(a,b)=>{
+const compare1=(a,b)=>{     //this will help to sort the arrat elements in acending order
     return a - b;
 }
 
@@ -142,7 +142,7 @@ console.log("newarr.sort(compare1) = "+newarr.sort(compare1));  //sort for asend
 console.log("newarr = "+newarr);
 
 
-const compare2 = (a,b)=>{
+const compare2 = (a,b)=>{     //this will help to sort the array elements in decending order
     return b - a;
 }
 
@@ -150,3 +150,54 @@ console.log();
 console.log("newarr = "+newarr);
 console.log("newarr.sort(compare2) = "+newarr.sort(compare2));  //sort for decending order
 console.log("newarr = "+newarr);
+
+
+
+
+
+console.log()
+// arr.reverse()      //it will reverse the original array
+
+arr = [10,50,20,6,0,46,5,51,62,54];
+
+console.log("arr = "+arr);
+console.log("arr.reverse() = "+arr.reverse());    //it will reverse the original array
+console.log("arr = "+arr);
+
+
+
+
+
+
+console.log();
+// arr.splice(...);    it is used to remove and add elements in array at the same time and
+//                      it will modify the original array but arr.splice() returns the array of
+//                      deleted elements only.
+
+//Syntax 
+//arr.splice(from index, number of elelment to be delete from index, list of elements to be add from index );
+
+arr = [10,50,20,61,10,46,5,51,62,54];
+
+console.log("arr = "+arr);
+let a = arr.splice(3,2,111,222,333,444);    //so here from index 3 (including index 3) 2 elements will be
+                                       // deleted and from index 3 (including index 3) 111,222,333,444 there
+                                    //elements will be added and then remaining elements keeps as it is 
+                                    //and this method will return the deleted elements only.
+console.log("a = "+a);   //it will print the array of deleted elements in splice method only.                           
+console.log("arr = "+arr);
+
+
+
+
+
+console.log()
+// arr.slice();         it is used to divide or create new array of from existing array
+//                      it will not affect on existing array.
+
+arr = [10,50,20,61,10,46,5,51,62,54];
+
+console.log("arr.slice(3) = "+arr.slice(3));        //it will return new array from index 3 to end of array
+console.log("arr.slice(3,6) = "+arr.slice(3,6));    //it will return new array including index 3 to index 5.
+
+
