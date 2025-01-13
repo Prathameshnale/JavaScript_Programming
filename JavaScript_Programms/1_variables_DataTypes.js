@@ -1,5 +1,6 @@
 
 console.log("Welcome to my world...abcd");
+console.log("xyz");
 let name;
 console.log("name = "+name);  //by default data type is undefined
 
