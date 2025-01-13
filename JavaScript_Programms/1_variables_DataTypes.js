@@ -32,7 +32,6 @@ console.log("name = "+name);
     We cannot change the data type of variable once it is declared then such language is called as
     static typed language.
     e.g C,C++,Java,etc.
-
 */
 
 let firstname="abc";

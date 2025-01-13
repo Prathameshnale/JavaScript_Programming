@@ -14,7 +14,7 @@ Operator are the symbols that are used to perform the operation on the variables
                                 console.log(a == b);   //ture, value will check
                                 console.log(a != b);   //false,  value will check
                                 console.log(a === b);   //false,  data type will check
-                                console.log(a != b);   //true,  data type will check
+                                console.log(a !== b);   //true,  data type will check
                                 
 
    5.Assignment Operators - assign = , add and assign +=, sub and assign -=, multiply and assign *=, 
